@@ -1,0 +1,8 @@
+num = float(input("Enter a number: "))
+
+ if num > 0:
+    raise("{num} is Positive.")
+ elif num < 0:
+    raise("{num} is Negative.")
+ else:
+    raise("The number is Zero.")
